@@ -1,0 +1,10 @@
+D:\c# project\CalculatorApplication\CalculatorApplication\bin\Debug\CalculatorApplication.exe.config
+D:\c# project\CalculatorApplication\CalculatorApplication\bin\Debug\CalculatorApplication.exe
+D:\c# project\CalculatorApplication\CalculatorApplication\bin\Debug\CalculatorApplication.pdb
+D:\c# project\CalculatorApplication\CalculatorApplication\obj\Debug\CalculatorApplication.csproj.AssemblyReference.cache
+D:\c# project\CalculatorApplication\CalculatorApplication\obj\Debug\CalculatorApplication.FrmCalculator.resources
+D:\c# project\CalculatorApplication\CalculatorApplication\obj\Debug\CalculatorApplication.Properties.Resources.resources
+D:\c# project\CalculatorApplication\CalculatorApplication\obj\Debug\CalculatorApplication.csproj.GenerateResource.cache
+D:\c# project\CalculatorApplication\CalculatorApplication\obj\Debug\CalculatorApplication.csproj.CoreCompileInputs.cache
+D:\c# project\CalculatorApplication\CalculatorApplication\obj\Debug\CalculatorApplication.exe
+D:\c# project\CalculatorApplication\CalculatorApplication\obj\Debug\CalculatorApplication.pdb
