@@ -26,13 +26,13 @@ namespace CalculatorApplication
             double num1 = double.Parse(txtBoxInput1.Text);
             double num2 = double.Parse(txtBoxInput2.Text);
 
-            // Subscribe first
+            
             cal.CalculateEvent += CalculatorClass.GetSum;
 
-            // Now call Execute (this will trigger the delegate)
+            
             double result = cal.Execute(num1, num2);
 
-            // Show result
+            
             lblDisplayTotal.Text = result.ToString();
 
             
