@@ -26,16 +26,30 @@ namespace CalculatorApplication
             double num1 = double.Parse(txtBoxInput1.Text);
             double num2 = double.Parse(txtBoxInput2.Text);
 
-            
-            cal.CalculateEvent += CalculatorClass.GetSum;
 
-            
+            cal.CalculateEvent -= CalculatorClass.GetSum;
+            cal.CalculateEvent -= CalculatorClass.GetDifference;
+            cal.CalculateEvent -= CalculatorClass.GetProduct;
+            cal.CalculateEvent -= CalculatorClass.GetQuotient;
+
+            switch (cbOperator.SelectedItem.ToString())
+            {
+                case "+":
+                    cal.CalculateEvent += CalculatorClass.GetSum;
+                    break;
+                case "-":
+                    cal.CalculateEvent += CalculatorClass.GetDifference;
+                    break;
+                case "*":
+                    cal.CalculateEvent += CalculatorClass.GetProduct;
+                    break;
+                case "/":
+                    cal.CalculateEvent += CalculatorClass.GetQuotient;
+                   break;
+            }
+
             double result = cal.Execute(num1, num2);
-
-            
             lblDisplayTotal.Text = result.ToString();
-
-            
         }
     }
 }

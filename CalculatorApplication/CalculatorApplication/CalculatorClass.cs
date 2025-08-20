@@ -11,10 +11,10 @@ namespace CalculatorApplication
 
     class CalculatorClass
     {
-        // Private field for handlers
+       
         private Formula<double> _calculateHandler;
 
-        // Custom event accessor
+        
         public event Formula<double> CalculateEvent
         {
             add
